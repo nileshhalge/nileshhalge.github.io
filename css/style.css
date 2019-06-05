@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Amarante');
+@import url('https://fonts.googleapis.com/css?family=Architects Daughter');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+ html {
+     font-family: sans-serif;
+     line-height: 1.15;
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  footer, header, main, nav, section {
+    display: block;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    background-size: cover;
+  }
+
+  hr {
+    -webkit-box-sizing: border-box;
+    box-sizing: content-box;
+    height: 1;
+    overflow: visible;
+    top: 20%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  header.main{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg.jpg");
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  header.main h1 {
+    font-size: 2.25rem;
+
+  }
+
+  @media (min-width: 992px) {
+    header.main {
+      height: 91vh;
+      min-height: 40rem;
+      padding-top: 72px;
+      padding-bottom: 0;
+    }
+    header.main p {
+      font-size: 1.15rem;
+    }
+    header.main h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    header.main h1 {
+      font-size: 4rem;
+    }
+  }
+
+  .main-title{
+      font-size: 60px;
+      position: absolute;
+      margin: 0;
+      font-family: Architects Daughter;
+      padding: 0;
+      color: #F9F1E9;
+      text-align: center;
+      top: 45%;
+      left: 38%;
+  }
+
+  .sub-title{
+      font-size: 1.8em;
+      font-family: Amarante;
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      color: #F9F1E9;
+      text-align: center;
+      top : 40%;
+      left: 38%;
+  }
+
+  .navbar-brand{
+      position: absolute;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      color: #F9F1E9;
+      font-size: 25px;
+      font-weight: bold;
+      top: 2%;
+      left: 3%;
+
+  }
+   .navbar-nav{
+       text-decoration: none;
+       list-style: none;
+       margin: 0;
+       padding: 10px 80px 0px 20px;
+       position: absolute;
+       display: flex;
+       float: right; 
+       top: 3.5%;
+       left: 65%; 
+       color: #F9F1E9;
+       font-size: 17px;
+
+  }
+  .nav-link
+  {
+      text-decoration: none;
+      color: #F9F1E9;
+      text-transform: uppercase;
+      font-weight: bold
+      
+  }
+
+  .navbar .navbar-nav .nav-item{
+      text-decoration: none;
+      list-style: none;
+      padding: 0px 5px;
+      color: #F9F1E9;
+
+  }
+
+  
+
+  #about{
+    padding: 100px 0;
+  }
+
+.section{
+    height: 91vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+    background: #212529;
+    background-size: cover;
+}
+
+.size-50{
+    color: #F9F1E9;
+    position: absolute;
+    left: 7%;
+    text-decoration: underline;
+}
+
+.para{
+    padding: 20px;
+    color: #F9F1E9;
+    position: absolute;
+    top: 125%;
+    left: 7%;
+}
+
+.para1{
+    padding: 20px;
+    color: #F9F1E9;
+    position: absolute;
+    left: 7%;
+    top: 135%;
+}
+.interest{
+    color: #F9F1E9;
+    padding: 10%;
+    position: absolute;
+    left: 6%;
+    top: 122%;
+}
+
+.about-img-div img {
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 20;
+    margin: 0 auto;
+}
+.img{
+    position: absolute;
+    top: 110%;
+    left: 70%;
+}
