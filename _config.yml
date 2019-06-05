@@ -1,1 +1,124 @@
-theme: jekyll-theme-slate
+<Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Nilesh Halge</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="stylesheet" href="css/style.css">    
+        <link rel="shortcut icon" type="image/png" href="img/net.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
+    </head>
+
+    <!--main heading-->
+    <body id="wrap">
+        <header class="main">
+            <div class="center-heading">
+                <h1 class="main-title">
+                    <span class="text-wrap">
+                        <span class="line1">
+                            <span class="letters"><span class="thin">Nilesh</span> Halge</span>   
+                        </span>
+                    </span>
+                </h1>
+                <h2 class="sub-title">Hello, Nice to meet you! I'm </h2>
+               
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+                        <div class="container">
+                            <a class="navbar-brand js-scroll-trigger" href="#wrap">Nilesh Halge </a>
+                            <ul class="navbar-nav ml-auto my-2 my-lg-0" >
+                                <li class="nav-item">
+                                    <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                                </li>
+                                <li class="nav-item">                                    
+                                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>                                 
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+            </div>
+        </header>
+        
+        <!--/main heading-->
+
+        <!--about-->
+        <div class="section" id="about">
+            <div class="container">
+                <h1 class="size-50">Know <br /> About me</h1>
+                <p class="para">Currently I'm studying B.Tech. Computer Science and Technology<br />  at Department of Technology, Shivaji University Kolhapur.</p>
+                <p class="para1">My areas of interest are</p>
+                <span class="typeing">|</span>
+                <ul class="interest">
+                    <li>Web Development</li>
+                    <li>Data Structures and Algorithm</li>
+                </ul>
+            </div>
+            <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
+            <div class="img"><img src="img/me.jpg" alt="" width="400" alt="" data-aos-delay="0" /></div>
+        </div>
+
+        <!--/about-->
+
+        <!--education-->
+
+        <section class="page-section" id="education">
+            <div class="container">
+                <h2 class="section-heading text-uppercase">Education</h2>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2016-2020</h4>
+                                <h4 class="subheading">B.Tech. (Computer Science and Technology)</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Department of Technology, Shivaji University Kolhapur</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2015-2016</h4>
+                                <h4 class="subheading">All India Senior School Examination</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Jawahar Navodaya Vidyalaya, Washim</p>
+                                <p class="text-muted">Scored: 75.80% </p>                          
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2013-2014</h4>
+                                <h4 class="subheading">All India Secondary School Examination</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Jawahar Navodaya Vidyalaya, Washim</p>
+                                <p class="text-muted">Scored: 9.20 CGPA</p>                          
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--/education-->
+
+        <!--Skills-->
+
+    </body>
+</html>
