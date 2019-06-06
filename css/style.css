@@ -125,6 +125,7 @@
   }
   .nav-link
   {
+      position: fixed;
       text-decoration: none;
       color: #F9F1E9;
       text-transform: uppercase;
@@ -137,7 +138,7 @@
       list-style: none;
       padding: 0px 5px;
       color: #F9F1E9;
-
+      position: fixed;
   }
 
   
