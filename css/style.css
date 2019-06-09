@@ -246,7 +246,7 @@ img{
     padding: 100px 0;
 }
 .page-section{
-    height: 125vh;
+    height: 100vh;
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
@@ -257,26 +257,17 @@ img{
 .a{
     position: absolute;
     text-align:center;
-    top: 205%;
+    top: 209%;
     left: 43%;
   }
   .e{
     margin-bottom:20px;
   }
-  b{
-    list-style:none;
-    position:absolute;
-    margin-bottom:150px;
-    list-style: none;
+  .b{
+    position: relative;
+    top: 10%
   }
-  b:before{
-    position:absolute;
-    content:'';
-    width:3px;
-    height:100%;
-    left:50%;
-    background:#ee5253;
-  }
+ 
   .b .c{
     width:50%;
     clear:both;
@@ -285,10 +276,12 @@ img{
   .b .c:nth-child(odd){
     float:left;
     text-align:right;
+    padding: 15px;
   }
   .b .c:nth-child(even){
     float:right;
     text-align:left;
+    padding: 15px;
   }
   
   
