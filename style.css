@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Katibeh');
+@import url('https://fonts.googleapis.com/css?family=Amarante');
+@import url('https://fonts.googleapis.com/css?family=Architects Daughter');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body {
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.section-header{
+    padding-bottom: 30px;
+}
+
+
+
+.navbar-brand{
+    position: relative;
+    top: 3.5%;
+    left: 0%;
+    color: rgba(163, 159, 156, 0.76) !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-area{
+    background: #262626;
+    background-color: rgba(58, 55, 53, 0.76);
+}
+
+.navbar-nav .nav-link{
+
+    color: rgb(190, 183, 183) !important;
+    font-weight: bold;
+}
+
+.nav-item{
+    color: rgba(58, 55, 53, 0.76);
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+/*slider-area*/
+
+.slider-area{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("img/bg.png");
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+}
+
+.slider-text h1{
+    font-size: 60px;    
+}
+
+.slider-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 25%;
+    font-weight: bold;  
+    font-family: Architects Daughter;
+}
+
+/*about-area*/
+
+#about{
+    height: 100%;
+}
+
+.about-area{
+    background: #262626;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-heading{
+    
+    color: #fff;
+}
+
+.cont{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.item-text{
+    font-size: 1.2em;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.about-img{
+    padding-right: 15px;
+    width: 350;
+    border-radius: 50%;
+}
+
+.abt-img{
+    border-radius: 50%;
+}
+
+
+
+.card{
+    border-color: #262626;
+    padding: 0px 10px;
+    background: #34c6d3;
+    
+}
+
+.card-body{
+    background-color: #34c6d3;
+    
+}
+
+
+
+
+
+
+
