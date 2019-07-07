@@ -16,7 +16,7 @@ body {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(images/loader-64x/Preloader_3.gif) center no-repeat #fff;
+	background: url(images/loader-64x/Preloader_1.gif) center no-repeat #fff;
 }
 
 html{
@@ -122,6 +122,24 @@ html{
 .abt-img{
     border-radius: 70%;
 }
+
+.profile-item {
+    padding: 0px 0 0px 0;
+    cursor: pointer;
+}
+
+.profile-item-icon {
+    color: #fff;
+    padding: 10px 10px 15px 10px;
+    text-align: center;
+    
+}
+
+.profile-item:hover .profile-item-icon {
+    color: #fff;
+    background-color: #fff;
+}
+
 #education{
     background-color: #3be6c9;
 }
@@ -142,6 +160,33 @@ html{
     background-color: #e2e7e7;
     
 }
+
+#skills{
+    background: #eaf1f1;
+    height: 100vh;
+}
+
+.skill-item {
+    padding: 20px 0 15px 0;
+    cursor: pointer;
+}
+
+.skill-item-icon {
+    color: #3be6c9;
+    height: 120px;
+    width: 120px;
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+    font-size: 5rem;
+    margin: auto;
+}
+
+.skill-item:hover .skill-item-icon {
+    color: #fff;
+    background-color: #3be6c9;
+}
+
+
 
 
 
