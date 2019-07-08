@@ -85,9 +85,7 @@ html{
 
 /*about-area*/
 
-#about{
-    height: 100%;
-}
+
 
 .about-area{
     background: #262626;
@@ -163,7 +161,6 @@ html{
 
 #skills{
     background: #eaf1f1;
-    height: 100vh;
 }
 
 .skill-item {
