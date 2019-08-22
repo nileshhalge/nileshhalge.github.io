@@ -1,0 +1,38 @@
+#skills{
+    background: #ffffff;
+    
+}
+
+.skill-item {
+    padding: 5px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.skill-item-icon {
+    color: #3be6c9;
+    height: 120px;
+    width: 120px;
+    padding: 5px 15px 10px 15px;
+    text-align: center;
+    font-size: 5rem;
+    margin: auto;
+}
+
+.skill-item-title {
+    color: #3be6c9;
+    height: 120px;
+    width: 120px;
+    padding: 5px 15px 10px 15px;
+    text-align: center;
+    font-size: 5rem;
+    margin: auto;
+}
+
+.skill-item:hover .skill-item-icon {
+    color: #fff;
+    background-color: #3be6c9;
+}
+
+#about{
+    height: 100%;
+}
