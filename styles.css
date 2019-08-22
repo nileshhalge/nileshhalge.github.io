@@ -9,7 +9,7 @@
 }
 
 .skill-item-icon {
-    color: #3be6c9;
+    color: #5FCB71;
     height: 120px;
     width: 120px;
     padding: 5px 15px 10px 15px;
@@ -19,7 +19,7 @@
 }
 
 .skill-item-title {
-    color: #3be6c9;
+    color: #5FCB71;
     height: 120px;
     width: 120px;
     padding: 5px 15px 10px 15px;
@@ -30,7 +30,7 @@
 
 .skill-item:hover .skill-item-icon {
     color: #fff;
-    background-color: #3be6c9;
+    background-color: #5FCB71;
 }
 
 #about{
